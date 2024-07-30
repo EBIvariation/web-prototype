@@ -1,0 +1,14 @@
+$vf-font-plex-mono-prefix: '@visual-framework/vf-font-plex-mono/assets';
+$vf-font-plex-sans-prefix: '@visual-framework/vf-font-plex-sans/assets';
+
+@import '@visual-framework/vf-sass-starter/index.scss';
+@import '@visual-framework/vf-card-container/vf-card-container.scss';
+@import '@visual-framework/vf-card/vf-card.scss';
+@import '@visual-framework/vf-box/vf-box.scss';
+@import '@visual-framework/vf-stack/vf-stack.scss';
+@import '@visual-framework/vf-u-fullbleed/vf-u-fullbleed.scss';
+@import '@visual-framework/vf-banner/vf-banner.scss';
+@import '@visual-framework/vf-banner/vf-banner--phase.scss';
+@import '@visual-framework/vf-banner/vf-banner--alerts.scss';
+@import '@visual-framework/vf-banner/vf-banner--gdpr.scss';
+@import '@visual-framework/vf-banner/vf-banner.scss';

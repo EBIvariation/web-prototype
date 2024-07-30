@@ -24,6 +24,7 @@ function Header() {
                         <li><Link to="/rs-release">RS Release</Link></li>
                         <li><Link to="/help">Help</Link></li>
                         <li><Link to="/feedback">Feedback</Link></li>
+                        <li><Link to="/vfexample">VFExample</Link></li>
                     </ul>
                 </nav>
             </div>

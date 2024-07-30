@@ -1,4 +1,6 @@
-import './ElixirBanner.css'
+// @ts-ignore
+import React from "react";
+import './ElixirBanner.css';
 
 function ElixirBanner() {
     return (

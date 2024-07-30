@@ -12,6 +12,8 @@ import Help from "./components/Help/Help.tsx";
 import Feedback from "./components/Feedback/Feedback.tsx";
 import Header from "./components/Header/Header.tsx";
 import Footer from "./components/Footer/Footer.tsx";
+import VFExample from "./components/VFExample/VFExample.tsx";
+import "./assets/style/style.scss";
 
 const basename = import.meta.env['BASE_URL'] || '/';
 
@@ -29,6 +31,7 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
                 <Route path="/rs-release" element={<RSRelease/>}/>
                 <Route path="/help" element={<Help/>}/>
                 <Route path="/feedback" element={<Feedback/>}/>
+                <Route path={"/vfexample"} element={<VFExample/>}/>
             </Routes>
             <Footer></Footer>
         </BrowserRouter>
